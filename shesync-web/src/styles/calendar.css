@@ -1,0 +1,64 @@
+.react-calendar {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+}
+
+.react-calendar__tile {
+  padding: 12px 6px;
+  border-radius: 14px;
+  transition: all 0.2s ease;
+}
+
+.react-calendar__tile:hover {
+  background: rgba(124, 58, 237, 0.15);
+}
+
+.react-calendar__tile--active {
+  background: #7C3AED !important;
+  color: white !important;
+}
+
+.react-calendar__tile--now {
+  background: rgba(79, 70, 229, 0.2);
+  border-radius: 14px;
+}
+
+.react-calendar__navigation button {
+  color: inherit;
+  font-weight: 600;
+}
+
+.dark .react-calendar {
+  color: white;
+}
+
+.dark .react-calendar__tile:hover {
+  background: rgba(124, 58, 237, 0.3);
+}
+
+/* PERIOD DAYS */
+.period-day {
+  background: #EF4444 !important;
+  color: white !important;
+  border-radius: 14px;
+}
+
+/* OVULATION WINDOW */
+.ovulation-day {
+  background: #7C3AED !important;
+  color: white !important;
+  border-radius: 14px;
+}
+.predicted-period-day {
+  background: #ef4444 !important;
+  color: white !important;
+  border-radius: 50%;
+}
+
+.ovulation-day {
+  background: #a855f7 !important;
+  color: white !important;
+  border-radius: 50%;
+}
