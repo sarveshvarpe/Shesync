@@ -98,7 +98,7 @@ AI Services + Location APIs
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/shesync.git
+git clone https://github.com/sarveshvarpe/shesync.git
 ```
 
 ## Navigate to Project Folder
